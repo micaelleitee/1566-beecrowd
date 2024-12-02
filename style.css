@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 100%;
+  font-family: "Inter";
+  font-weight: 700;
+}
+.barra-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px -35px 50px 1px;
+}
+.logo-img {
+  width: 10px;
+}
+.textos-barra {
+  padding-right: 50px;
+  display: flex;
+  justify-content: right;
+  width: 10px;
+}
+
+.logo {
+  padding: 20px;
+  color: #6f02ff;
+}
+
+ul {
+  gap: 10px;
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+}
